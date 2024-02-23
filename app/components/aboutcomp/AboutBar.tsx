@@ -74,7 +74,7 @@ const AboutBar = () => {
                 </li>
                 <li className="mt-2">
                   <a className="btn bg-red-700 text-white">
-                    Sign Up- It's Free
+                    Sign Up- It&apos;s Free
                   </a>
                 </li>
               </ul>
@@ -118,7 +118,7 @@ const AboutBar = () => {
               <a className="btn bg-red-700 text-white mx-4">Sign In</a>
             </li>
             <li className="my-2">
-              <a className="btn bg-red-700 text-white">Sign Up- It's Free</a>
+              <a className="btn bg-red-700 text-white">Sign Up- It&apos;s Free</a>
             </li>
           </ul>
         </div>
