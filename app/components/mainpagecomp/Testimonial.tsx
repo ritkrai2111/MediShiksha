@@ -16,13 +16,13 @@ const Testimonial = () => {
             </h2>
           </div>
           <p className="text-black">
-            "Enrolling in courses on MediShiksha has been a game-changer for my
+            &quot;Enrolling in courses on MediShiksha has been a game-changer for my
             medical career. The variety of courses offered allowed me to
             specialize in my area of interest, and the experienced instructors
-            provided invaluable insights. The platform's user-friendly interface
+            provided invaluable insights. The platform&apos;s user-friendly interface
             and engaging content make learning enjoyable. I highly recommend
             MediShiksha to every medical professional looking to enhance their
-            skills and knowledge."
+            skills and knowledge.&quot;
           </p>
         </div>
       </div>
