@@ -78,7 +78,7 @@ const FlexiBar = () => {
                 </li>
                 <li className="mt-2">
                   <a className="btn bg-red-700 text-white">
-                    Sign Up- It's Free
+                    Sign Up- It&apos;s Free
                   </a>
                 </li>
               </ul>
