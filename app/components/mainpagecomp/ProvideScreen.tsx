@@ -18,7 +18,7 @@ const ProvideScreen = () => {
             </div>
             <div className="collapse-content">
               <p>
-                Explore MediShiksha's online courses, offering a diverse array
+                Explore MediShiksha&apos;s online courses, offering a diverse array
                 of expert-led content in medicinal practices. Start your
                 educational journey with us and advance your career in
                 healthcare.
