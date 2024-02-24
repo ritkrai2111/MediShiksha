@@ -1,9 +1,10 @@
 import React from "react";
+import UserCourses from "./UserCourses";
 
-const FlexiBar = () => {
+const UserBar = () => {
   return (
     <div>
-      <div className="drawer">
+      <div className="drawer bg-gray-200">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           {/* Navbar */}
@@ -44,16 +45,16 @@ const FlexiBar = () => {
                   <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="/about">About Medishiksha</a>
+                  <a href="/pages/about">About Medishiksha</a>
                 </li>
                 <li>
-                  <a href="/courses">Browse Courses</a>
+                  <a href="/pages/courses">Browse Courses</a>
                 </li>
                 <li>
-                  <a href="/pricing">Pricing</a>
+                  <a href="/pages/pricing">Pricing</a>
                 </li>
                 <li>
-                  <a href="/contact">Contact Us</a>
+                  <a href="/pages/contact">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -69,16 +70,39 @@ const FlexiBar = () => {
                   </div>
                 </li>
                 <li>
-                  <div className="avatar placeholder">
-                    <div className="bg-neutral text-neutral-content rounded-full w-12">
-                      <span className="text-3xl">D</span>
+                  <div className="dropdown dropdown-end dropdown-bottom">
+                    <div
+                      tabIndex={0}
+                      role="button"
+                      className="btn btn-ghost btn-circle avatar placeholder"
+                    >
+                      <div className="bg-red-700 text-neutral-content rounded-full w-12">
+                        <span>AK</span>
+                      </div>
                     </div>
+                    <ul
+                      tabIndex={0}
+                      className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+                    >
+                      <li>
+                        <a className="justify-between">My Profile</a>
+                      </li>
+                      <li>
+                        <a href="/pages/userdash">My Courses</a>
+                      </li>
+                      <li>
+                        <a href="/pages/orders">My Orders</a>
+                      </li>
+                      <li>
+                        <a>Logout</a>
+                      </li>
+                    </ul>
                   </div>
                 </li>
               </ul>
             </div>
           </div>
-          {/* CONTENT */}
+          <UserCourses />
         </div>
         <div className="drawer-side">
           <label
@@ -89,7 +113,7 @@ const FlexiBar = () => {
           <ul className="menu p-6 w-80 min-h-full bg-white">
             <li>
               <div className="avatar placeholder">
-                <div className="bg-neutral text-neutral-content rounded-full w-12">
+                <div className="bg-red-700 text-neutral-content rounded-full w-12">
                   <span className="text-3xl">AK</span>
                 </div>
                 <h2 className="text-xl">Ansh Karwal</h2>
@@ -108,29 +132,28 @@ const FlexiBar = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">My Courses</a>
+              <a href="/pages/userdash">My Courses</a>
             </li>
             <li>
-              <a href="/courses">Browse Courses</a>
+              <a href="/pages/courses">Browse Courses</a>
             </li>
             <li>
-              <a href="/pricing">My Orders</a>
+              <a href="/pages/orders">My Orders</a>
             </li>
             <li>
-              <a href="/">My Profile</a>
+              <a href="/pages/profile">My Profile</a>
             </li>
             <li>
-              <a href="/contact">Contact Us</a>
+              <a href="/pages/contact">Contact Us</a>
             </li>
             <li>
-              <a href="/contact">Log Out</a>
+              <a>Log Out</a>
             </li>
           </ul>
         </div>
       </div>
-      ;
     </div>
   );
 };
 
-export default FlexiBar;
+export default UserBar;
