@@ -24,7 +24,7 @@ const CardDrawer = () => {
           </h1>
         </div>
         <Divider />
-        <div className="mb-6 flex flex-col md:flex-row items-center justify-between w-full py-4 bg-yellow-600">
+        <div className="mb-6 flex flex-col md:flex-row items-center justify-between w-full py-2 bg-slate-300">
           <div className="flex items-center mb-4 ml-4 md:mb-0">
             <input
               type="text"

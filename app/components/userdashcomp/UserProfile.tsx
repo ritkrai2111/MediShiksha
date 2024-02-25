@@ -1,7 +1,7 @@
 import React from "react";
-import UserCourses from "./UserCourses";
+import UserProfileTabs from "./UserProfileTabs";
 
-const UserBar = () => {
+const UserProfile = () => {
   return (
     <div>
       <div className="drawer bg-gray-200">
@@ -107,7 +107,7 @@ const UserBar = () => {
               </ul>
             </div>
           </div>
-          <UserCourses />
+          <UserProfileTabs />
         </div>
         <div className="drawer-side">
           <label
@@ -161,4 +161,4 @@ const UserBar = () => {
   );
 };
 
-export default UserBar;
+export default UserProfile;
