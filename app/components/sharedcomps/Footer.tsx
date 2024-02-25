@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="footer p-10 text-base bg-gray-200 flex items-center justify-center flex-col">
         <aside className="text-center">
           <img
-            src="../images/Medishikshalogo.png"
+            src="../../images/Medishikshalogo.png"
             alt="logo"
             className="h-38 w-48 ml-20"
           />

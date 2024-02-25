@@ -1,11 +1,16 @@
 "use client";
 import React from "react";
+import Divider from "../sharedcomps/Divider";
 
 const UserProfileTabs = () => {
   return (
     <div className="flex justify-center items-center h-full">
       <div className="card mt-4 mb-4 w-auto lg:card-side bg-base-100 shadow-xl">
         <form className="card-body">
+          <div className="flex justify-center items-center text-center">
+            <h1 className="text-2xl">Edit your profile settings</h1>
+          </div>
+          <Divider />
           <div className="flex justify-center items-center">
             <div className="avatar placeholder">
               <div className="bg-red-700 text-neutral-content rounded-full w-24">
