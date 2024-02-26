@@ -19,11 +19,7 @@ const UserProfileTabs = () => {
             </div>
             <div>
               <button
-                className="btn bg-yellow-500 ml-4"
-                onClick={() =>
-                  document.getElementById("my_modal_3").showModal()
-                }
-              >
+                className="btn bg-yellow-500 ml-4">
                 Change Profile Picture
               </button>
               <dialog id="my_modal_3" className="modal">
