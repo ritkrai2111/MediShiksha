@@ -33,9 +33,31 @@ const FilterDrawer = () => {
                 <div className="collapse-content">
                   <div className="form-control">
                     <label className="label cursor-pointer">
-                      <span className="label-text text-white">
-                        All Categories
-                      </span>
+                      <span className="label-text text-white">AYUSH</span>
+                      <input
+                        type="checkbox"
+                        className="checkbox"
+                        style={{ border: "2px solid white" }}
+                      />
+                    </label>
+                    <label className="label cursor-pointer">
+                      <span className="label-text text-white">MBBS / MD</span>
+                      <input
+                        type="checkbox"
+                        className="checkbox"
+                        style={{ border: "2px solid white" }}
+                      />
+                    </label>
+                    <label className="label cursor-pointer">
+                      <span className="label-text text-white">PARAMEDICS</span>
+                      <input
+                        type="checkbox"
+                        className="checkbox"
+                        style={{ border: "2px solid white" }}
+                      />
+                    </label>
+                    <label className="label cursor-pointer">
+                      <span className="label-text text-white">NON MEDICO</span>
                       <input
                         type="checkbox"
                         className="checkbox"
@@ -44,7 +66,7 @@ const FilterDrawer = () => {
                     </label>
                     <label className="label cursor-pointer">
                       <span className="label-text text-white">
-                        Medical Emergency
+                        Integrative medicine
                       </span>
                       <input
                         type="checkbox"
@@ -53,17 +75,7 @@ const FilterDrawer = () => {
                       />
                     </label>
                     <label className="label cursor-pointer">
-                      <span className="label-text text-white">Pulmonary</span>
-                      <input
-                        type="checkbox"
-                        className="checkbox"
-                        style={{ border: "2px solid white" }}
-                      />
-                    </label>
-                    <label className="label cursor-pointer">
-                      <span className="label-text text-white">
-                        Internal Medicine
-                      </span>
+                      <span className="label-text text-white">Emergency</span>
                       <input
                         type="checkbox"
                         className="checkbox"
@@ -72,8 +84,32 @@ const FilterDrawer = () => {
                     </label>
                     <label className="label cursor-pointer">
                       <span className="label-text text-white">
-                        Healthcare & Medicine
+                        Palliative care
                       </span>
+                      <input
+                        type="checkbox"
+                        className="checkbox"
+                        style={{ border: "2px solid white" }}
+                      />
+                    </label>
+                    <label className="label cursor-pointer">
+                      <span className="label-text text-white">Level 1</span>
+                      <input
+                        type="checkbox"
+                        className="checkbox"
+                        style={{ border: "2px solid white" }}
+                      />
+                    </label>
+                    <label className="label cursor-pointer">
+                      <span className="label-text text-white">Level 2 </span>
+                      <input
+                        type="checkbox"
+                        className="checkbox"
+                        style={{ border: "2px solid white" }}
+                      />
+                    </label>
+                    <label className="label cursor-pointer">
+                      <span className="label-text text-white">Level 3</span>
                       <input
                         type="checkbox"
                         className="checkbox"

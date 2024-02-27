@@ -49,16 +49,16 @@ const FlexiBar = () => {
                   <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="pages/about">About Medishiksha</a>
+                  <a href="/about">About Medishiksha</a>
                 </li>
                 <li>
-                  <a href="pages/courses">Browse Courses</a>
+                  <a href="/courses">Browse Courses</a>
                 </li>
                 <li>
-                  <a href="pages/pricing">Pricing</a>
+                  <a href="/blog">Blog</a>
                 </li>
                 <li>
-                  <a href="pages/contact">Contact Us</a>
+                  <a href="/contact">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -116,7 +116,7 @@ const FlexiBar = () => {
               <a href="/courses">Browse Courses</a>
             </li>
             <li>
-              <a href="/pricing">Pricing</a>
+              <a href="/blog">Blog</a>
             </li>
             <li className="mb-2">
               <a href="/contact">Contact Us</a>
@@ -126,7 +126,9 @@ const FlexiBar = () => {
               <a className="btn bg-red-700 text-white mx-4">Sign In</a>
             </li>
             <li className="my-2">
-              <a className="btn bg-red-700 text-white">Sign Up- It&apos;s Free</a>
+              <a className="btn bg-red-700 text-white">
+                Sign Up- It&apos;s Free
+              </a>
             </li>
           </ul>
         </div>

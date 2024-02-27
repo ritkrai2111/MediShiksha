@@ -45,16 +45,16 @@ const UserBar = () => {
                   <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="/pages/about">About Medishiksha</a>
+                  <a href="/about">About Medishiksha</a>
                 </li>
                 <li>
-                  <a href="/pages/courses">Browse Courses</a>
+                  <a href="/courses">Browse Courses</a>
                 </li>
                 <li>
-                  <a href="/pages/pricing">Pricing</a>
+                  <a href="/blog">Blog</a>
                 </li>
                 <li>
-                  <a href="/pages/contact">Contact Us</a>
+                  <a href="/contact">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -85,18 +85,15 @@ const UserBar = () => {
                       className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
                     >
                       <li>
-                        <a
-                          href="/pages/user/userprofile"
-                          className="justify-between"
-                        >
+                        <a href="/user/userprofile" className="justify-between">
                           My Profile
                         </a>
                       </li>
                       <li>
-                        <a href="/pages/user/userdash">My Courses</a>
+                        <a href="/user/userdash">My Courses</a>
                       </li>
                       <li>
-                        <a href="/pages/user/userorders">My Orders</a>
+                        <a href="/user/userorders">My Orders</a>
                       </li>
                       <li>
                         <a>Logout</a>
@@ -137,19 +134,19 @@ const UserBar = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/pages/user/userdash">My Courses</a>
+              <a href="/user/userdash">My Courses</a>
             </li>
             <li>
-              <a href="/pages/courses">Browse Courses</a>
+              <a href="/courses">Browse Courses</a>
             </li>
             <li>
-              <a href="/pages/user/orders">My Orders</a>
+              <a href="/user/userorders">My Orders</a>
             </li>
             <li>
-              <a href="/pages/user/profile">My Profile</a>
+              <a href="/user/userprofile">My Profile</a>
             </li>
             <li>
-              <a href="/pages/contact">Contact Us</a>
+              <a href="/contact">Contact Us</a>
             </li>
             <li>
               <a>Log Out</a>

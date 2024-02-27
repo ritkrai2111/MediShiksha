@@ -1,11 +1,12 @@
 import React from "react";
-import CourseDrawer from "./CourseDrawer";
-const CourseBar = () => {
+import Signuptemplate from "./Signuptemplate";
+
+const Signup = () => {
   return (
     <div>
       <div className="drawer bg-gray-200">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content flex flex-col relative">
+        <div className="drawer-content flex flex-col">
           {/* Navbar */}
           <div className="w-full navbar bg-white">
             <div className="flex-none lg:hidden">
@@ -32,7 +33,7 @@ const CourseBar = () => {
             <div className="flex-1 px-2 mx-2">
               <a>
                 <img
-                  src="../images/Medishikshalogo.png"
+                  src="../../images/Medishikshalogo.png"
                   alt="Logo"
                   className="w-28 h-16 mr-6"
                 />
@@ -79,7 +80,7 @@ const CourseBar = () => {
               </ul>
             </div>
           </div>
-          <CourseDrawer />
+          <Signuptemplate />
         </div>
         <div className="drawer-side">
           <label
@@ -88,6 +89,14 @@ const CourseBar = () => {
             className="drawer-overlay"
           ></label>
           <ul className="menu p-6 w-80 min-h-full bg-white">
+            <li>
+              <div className="avatar placeholder">
+                <div className="bg-red-700 text-neutral-content rounded-full w-12">
+                  <span className="text-3xl">AK</span>
+                </div>
+                <h2 className="text-xl">Ansh Karwal</h2>
+              </div>
+            </li>
             <li>
               <div className="form-control">
                 <input
@@ -109,14 +118,13 @@ const CourseBar = () => {
             <li>
               <a href="/blog">Blog</a>
             </li>
-            <li className="mb-2">
+            <li>
               <a href="/contact">Contact Us</a>
             </li>
-
-            <li className="my-2">
+            <li className="mt-2">
               <a className="btn bg-red-700 text-white mx-4">Sign In</a>
             </li>
-            <li className="my-2">
+            <li className="mt-2">
               <a className="btn bg-red-700 text-white">
                 Sign Up- It&apos;s Free
               </a>
@@ -124,9 +132,8 @@ const CourseBar = () => {
           </ul>
         </div>
       </div>
-      ;
     </div>
   );
 };
 
-export default CourseBar;
+export default Signup;
