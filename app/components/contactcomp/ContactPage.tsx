@@ -51,7 +51,7 @@ const ContactPage = () => {
                   <a href="/courses">Browse Courses</a>
                 </li>
                 <li>
-                  <a href="/pricing">Pricing</a>
+                  <a href="/blog">Blog</a>
                 </li>
                 <li>
                   <a href="/contact">Contact Us</a>
@@ -108,7 +108,7 @@ const ContactPage = () => {
               <a href="/courses">Browse Courses</a>
             </li>
             <li>
-              <a href="/pricing">Pricing</a>
+              <a href="/blog">Blog</a>
             </li>
             <li className="mb-2">
               <a href="/contact">Contact Us</a>
