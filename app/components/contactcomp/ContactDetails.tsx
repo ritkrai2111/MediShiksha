@@ -1,18 +1,14 @@
 import React from "react";
-import ContactCard from "./ContactCard";
 
 const ContactDetails = () => {
   return (
-    <div className=" bg-gray-300">
-      <div className="mockup-browser  border border-base-300 bg-red-500">
-        <div className="mockup-browser-toolbar ">
-          <div className="input border  border-base-300">
-            https://medi-shiksha-2cdi.vercel.app/
-          </div>
-        </div>
-        <div className="flex justify-center px-4 py-16 border-t border-base-300 bg-gray-300">
-          <ContactCard />
-        </div>
+    <div className="mt-4">
+      <div className="bg-red-700 px-4 py-4">
+        <h1 className="text-4xl text-white mb-8">Contact our support team</h1>
+      </div>
+      <div className="px-4 py-4">
+        <h3 className="text-xl mb-4">phone: +91-</h3>
+        <h3 className="text-xl">email: info@medishiksha.com</h3>
       </div>
     </div>
   );
