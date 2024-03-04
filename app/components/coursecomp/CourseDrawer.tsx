@@ -1,19 +1,9 @@
-// CardDrawer.tsx
 import React from "react";
-import Cards from "../mainpagecomp/Cards";
 import FilterDrawer from "./FilterDrawer";
+import DynaCard from "./DynaCard";
+import coursesData from "./coursesData.json"; // Import the JSON data
 
 const CardDrawer = () => {
-  // Array of image sources for each card
-  const cardImages = [
-    "/images/cardImages/c1.jpg",
-    "/images/cardImages/c2.jpg",
-    "/images/cardImages/c3.jpg",
-    "/images/cardImages/c4.jpg",
-    "/images/cardImages/c5.jpg",
-    "/images/cardImages/c6.jpg",
-  ];
-
   return (
     <div className="mt-8 md:mt-16 flex flex-col items-center">
       <div className="pb-5 w-full max-w-screen-xl">
@@ -22,9 +12,9 @@ const CardDrawer = () => {
           <FilterDrawer />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {cardImages.map((imageSrc, index) => (
+          {coursesData.map((course, index) => (
             <div key={index} className="flex justify-center">
-              <Cards imageSrc={imageSrc} />
+              <DynaCard {...course} />
             </div>
           ))}
         </div>

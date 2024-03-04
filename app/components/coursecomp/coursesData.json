@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "/images/cardImages/c1.jpg",
+    "courseTags": ["AYUSH", "MBBS/MD", "Level 1"],
+    "courseName": "Foundations of Medical Practices",
+    "courseDescription": "Explore the fundamentals of AYUSH, MBBS/MD, and Level 1 medical practices in this comprehensive course."
+  },
+  {
+    "imageSrc": "/images/cardImages/c2.jpg",
+    "courseTags": ["PARAMEDICS", "NON MEDICO", "Level 2"],
+    "courseName": "Paramedic Skills and Essentials",
+    "courseDescription": "Dive into the world of PARAMEDICS, NON MEDICO, and Level 2 skills with this engaging course."
+  },
+  {
+    "imageSrc": "/images/cardImages/c3.jpg",
+    "courseTags": ["Integrative Medicine", "Emergency", "Level 3"],
+    "courseName": "Advanced Integrative Medicine",
+    "courseDescription": "Learn about Integrative Medicine, Emergency procedures, and advanced Level 3 techniques in this enriching course."
+  }
+]
