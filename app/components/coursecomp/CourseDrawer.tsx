@@ -3,7 +3,7 @@ import FilterDrawer from "./FilterDrawer";
 import DynaCard from "./DynaCard";
 import coursesData from "./coursesData.json"; // Import the JSON data
 
-const CardDrawer = () => {
+const CourseDrawer = () => {
   return (
     <div className="mt-8 md:mt-16 flex flex-col items-center">
       <div className="pb-5 w-full max-w-screen-xl">
@@ -23,4 +23,4 @@ const CardDrawer = () => {
   );
 };
 
-export default CardDrawer;
+export default CourseDrawer;
