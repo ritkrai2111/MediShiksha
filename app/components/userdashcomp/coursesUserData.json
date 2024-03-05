@@ -1,0 +1,44 @@
+[
+  {
+    "imageSrc": "/images/cardImages/c1.jpg",
+    "courseTags": ["AYUSH", "MBBS/MD", "Level 1"],
+    "courseName": "Foundations of Medical Practices",
+    "courseDescription": "Explore the fundamentals of AYUSH, MBBS/MD, and Level 1 medical practices in this comprehensive course.",
+    "price": 2499
+  },
+  {
+    "imageSrc": "/images/cardImages/c2.jpg",
+    "courseTags": ["PARAMEDICS", "NON MEDICO", "Level 2"],
+    "courseName": "Paramedic Skills and Essentials",
+    "courseDescription": "Dive into the world of PARAMEDICS, NON MEDICO, and Level 2 skills with this engaging course.",
+    "price": 1499
+  },
+  {
+    "imageSrc": "/images/cardImages/c3.jpg",
+    "courseTags": ["Integrative Medicine", "Emergency", "Level 3"],
+    "courseName": "Advanced Integrative Medicine",
+    "courseDescription": "Learn about Integrative Medicine, Emergency procedures, and advanced Level 3 techniques in this enriching course.",
+    "price": 3499
+  },
+  {
+    "imageSrc": "/images/cardImages/c4.jpg",
+    "courseTags": ["Integrative Medicine", "Pallative care", "Level 2"],
+    "courseName": "Advanced Integrative Medicine",
+    "courseDescription": "Learn about Integrative Medicine, Emergency procedures, and advanced Level 3 techniques in this enriching course.",
+    "price": 2299
+  },
+  {
+    "imageSrc": "/images/cardImages/c5.jpg",
+    "courseTags": ["Level 3"],
+    "courseName": "Advanced Integrative Medicine",
+    "courseDescription": "Learn about Integrative Medicine, Emergency procedures, and advanced Level 3 techniques in this enriching course.",
+    "price": 2999
+  },
+  {
+    "imageSrc": "/images/cardImages/c6.jpg",
+    "courseTags": ["AYUSH", "NON MEDICO", "Level 1"],
+    "courseName": "Advanced Integrative Medicine",
+    "courseDescription": "Learn about Integrative Medicine, Emergency procedures, and advanced Level 3 techniques in this enriching course.",
+    "price": 3149
+  }
+]

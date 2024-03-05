@@ -9,7 +9,7 @@ interface CardsProps {
   price: number;
 }
 
-const DynaCard: React.FC<CardsProps> = ({
+const UserCourseCard: React.FC<CardsProps> = ({
   imageSrc,
   courseTags,
   courseName,
@@ -24,9 +24,6 @@ const DynaCard: React.FC<CardsProps> = ({
   return (
     <div className="flex justify-center relative">
       <div className="card w-96 bg-white relative">
-        <span className="absolute top-2 left-2 text-white rounded px-2 py-1 text-2xl bg-yellow-500 font-bold">
-          ₹{price}
-        </span>
         <figure>
           <img
             src={imageSrc}
@@ -63,7 +60,7 @@ const DynaCard: React.FC<CardsProps> = ({
           <h2 className="text-black text-xl card-title">{courseName}</h2>
           <p className="text-black">{courseDescription}</p>
           <div className="card-actions justify-center">
-            <button className="btn bg-red-700 text-white">Enroll Now</button>
+            <button className="btn bg-red-700 text-white">View Course</button>
           </div>
           {showAllTags && hiddenTags.length > 0 && (
             <div className="mt-2">
@@ -82,4 +79,4 @@ const DynaCard: React.FC<CardsProps> = ({
   );
 };
 
-export default DynaCard;
+export default UserCourseCard;
